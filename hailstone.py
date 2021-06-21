@@ -10,4 +10,5 @@ def hailstone(num):
 while userNum != 1:
     print(hailstone(userNum))
     userNum = hailstone(userNum)
+print("Press enter to close")
 input()
